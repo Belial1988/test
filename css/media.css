@@ -1,0 +1,101 @@
+@media only screen and (max-width : 1200px) {
+    .services{
+        background-color: #fff;
+    }
+}
+@media only screen and (max-width : 1150px) {
+    header .nav ul li{
+        margin: 0 10px;
+    }
+}
+@media only screen and (max-width : 900px) {
+    .services .services-item{
+        width: 48%;
+        margin-bottom: 20px;
+    }
+    
+}
+@media only screen and (max-width : 830px) {
+    .top-line .content > div{
+        display: block;
+    }
+    .top-line .content .logo{
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    .top-line .content .tel{
+        margin-right: 0;
+        margin-bottom: 15px;
+        font-size: 25px;
+    }
+    .slider-cont .skew-cont .skew-big-block{
+        font-size: 50px;
+    }
+    .slider-cont .skew-cont .skew-small-flex .skew-small-flex-text-cont .skew-small-flex-text{
+        font-size: 25px;
+    }
+    .slider-cont{
+        padding-bottom: 70px;
+    }
+}
+@media only screen and (max-width : 730px) {
+    header .nav ul li{
+        display: none;
+    }
+    header .nav ul{
+        min-height: 18px;
+    }
+}
+@media only screen and (max-width : 600px) {
+    .slider-cont .skew-cont .skew-small-flex{
+        display: inline-block;
+    }
+}
+@media only screen and (max-width : 500px) {
+    .slider-cont .skew-cont .skew-big-block {
+        font-size: 35px;
+    }
+    .slider-cont .skew-cont .skew-small-flex .skew-small-flex-text-cont .skew-small-flex-text {
+        font-size: 20px;
+    }
+    .slider-cont p{
+        font-size: 17px;
+    }
+    .services .services-item{
+        width: 100%;
+        box-sizing: border-box;
+        padding: 20px 15px;
+        border-radius: 20px;
+        border: 1px solid #ccc;
+    }
+    .top-line .content > div{
+        margin-bottom: 15px;
+    }
+    .slider-cont .slider-btn{
+        max-width: 100%;
+    }
+    .slick-prev{
+        left:0;
+    }
+    .slick-dots{
+        left: 60px;
+    }
+    .slick-next{
+        left: 205px;
+    }
+    .slider-cont .skew-cont,
+    .slider-cont .skew-cont .skew-big-block-text,
+    .slider-cont .skew-cont .skew-small-flex .skew-small-flex-text-cont .skew-small-flex-text,
+    .slider-cont .skew-cont .skew-small-flex .skew-small-flex-price-cont .skew-small-flex-price .skew-small-flex-price-text{
+        transform: skew(0deg, 0deg);
+    }
+    .slider-cont .skew-cont .skew-small-flex .skew-small-flex-price-cont{
+        margin-left: 0;
+    }
+    .slider-cont .slide-item {
+        padding: 0 0px;
+    }
+    .slider-cont .skew-cont{
+        margin-left: 0;
+    }
+}
